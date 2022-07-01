@@ -1,9 +1,8 @@
-#include<stdio.h>
 #include<unistd.h>
 /**
- * main - Prints out the last part of a
- * quote in the standard error.
- * Return: always 1(success)
+ *main - Prints out the last part of a
+ *quote in the standard error.
+ *Return: always 1
  */
 int main(void)
 {
