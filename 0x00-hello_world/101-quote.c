@@ -1,6 +1,6 @@
 #include<unistd.h>
 /**
- *main - Prints out the last part of a quote in the standard error.
+ *main - Prints out the last part of a quote in the standard err *or.
  *Return: always 0
  */
 int main(void)
