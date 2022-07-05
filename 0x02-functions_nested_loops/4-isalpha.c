@@ -6,12 +6,8 @@
  */
 int _isalpha(int c)
 {
-	c = 'H';
-	_putchar(isalpha(c) + '0');
-	c = 'o';
-	_putchar(isalpha(c) + '0');
-	c = '108';
-	_Putchar(isalpha(c) + '0');
-	c =  ';';
-	_putchar(isalpha(c) + '0');
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
