@@ -7,11 +7,11 @@
 int _isalpha(int c)
 {
 	c = 'H';
-	_putchar(c + '0');
+	_putchar(isalpha(c) + '0');
 	c = 'o';
-	_putchar(c + '0');
+	_putchar(isalpha(c) + '0');
 	c = '108';
-	_Putchar(c + '0');
+	_Putchar(isalpha(c) + '0');
 	c =  ';';
-	_putchar(c + '0');
+	_putchar(isalpha(c) + '0');
 }
