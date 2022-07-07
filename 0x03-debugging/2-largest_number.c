@@ -12,9 +12,6 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	printf("Enter the numbers");
-	scanf("%d %d %d", &a, &b, &c);
-
 	if (a > b && a > c)
 	{
 		printf("largest: %d", a);
