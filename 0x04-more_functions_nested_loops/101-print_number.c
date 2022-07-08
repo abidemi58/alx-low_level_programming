@@ -13,7 +13,7 @@ void print_number(int n)
 		dig = -dig;
 	}
 
-	if (dig / 10) 
+	if (dig / 10)
 		print_number(dig / 10);
 
 	_putchar((dig % 10) + '0');
