@@ -15,15 +15,20 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 			printf("FIZZ");
+
 		else if ((i % 5) == 0)
 			printf("BUZZ");
+
 		else if ((i % 3) == 0 && (i % 5) == 0)
 			printf("FIZZBUZZ");
+
+		else if (i == 1);
+			printf("%d", i);
+
 		else
 			printf("%d", i);
 	}
 	printf("\n");
 
 	return (0);
-
 }
