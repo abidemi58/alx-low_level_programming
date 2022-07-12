@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		dig++;
 	}
-	dig1 = dig -1;
+	dig1 = dig - 1;
 	for (i = 0; i < dig / 2; i++)
 	{
 		tmp = s[i];
