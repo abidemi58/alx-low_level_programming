@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * *_strncat - concatenates two strings.
- * @dest:destination of the string
- * @src: source of the string
- * @n: bytes fron string src
+ * @dest:pointer to destination of the array
+ * @src:  string to be appended.
+ * @n: maximum number of characters to be appended.
  * Return: a pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
