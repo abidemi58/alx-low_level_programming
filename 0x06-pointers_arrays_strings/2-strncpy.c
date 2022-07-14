@@ -4,6 +4,7 @@
  * @dest:pointer to destination of the array
  * @src:  string to be appended.
  * @n:maximum number of characters to be appended.
+ * Return: a pointer to the resulting string dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -11,9 +12,9 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (dest[i] != '\0' && i < n)
 	{
-		scr[i]  = dest[i];
+		src[i]  = dest[i];
 		i++;
 	}
-	dest[j] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
