@@ -12,7 +12,7 @@ void print_diagsums(int *a, int size)
 
 	unsigned int d1 = 0, d2 = 0;
 
-	for (int i = 0; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		d1 += a[(size * i) + i];
 		d2 += a[(size * (i + 1)) - (i + 1)];
