@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[j])
 			{
 				k++;
-				tag = 1
+				tag = 1;
 			}
 		}
 		if (tag == 0)
