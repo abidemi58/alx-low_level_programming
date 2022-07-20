@@ -10,5 +10,6 @@ void _puts_recursion(char *s)
 		_putchar(*s);
 		_putchar(s + 1);
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
