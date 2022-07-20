@@ -13,14 +13,14 @@ int actual_sqrt_recursion(int n, int i)
 		return (i);
 	if (i * i <= n)
 		return (actual_sqrt_recursion(n, i + 1));
-	else 
+	else
 		return (-1);
 }
 
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: number to be squared
- * Return: If n does not have a natural 
+ * Return: If n does not have a natural
  * square root, the function should return -1
  */
 int _sqrt_recursion(int n)
@@ -29,4 +29,5 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-	return (actual_sqrt_recursion(n, 2))
+	return (actual_sqrt_recursion(n, 2));
+}
