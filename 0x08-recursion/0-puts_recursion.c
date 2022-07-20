@@ -5,8 +5,10 @@
  */
 void _puts_recursion(char *s)
 {
-	char n;
-
-	_putchar('n');
+	if (*s)
+	{
+		_putchar(*s);
+		_putchar(s + 1);
+	}
 	_putchar('\n');
 }
