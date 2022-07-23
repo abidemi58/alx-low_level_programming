@@ -6,7 +6,11 @@
  * @argv:array of string
  * Return: always 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[])/**
+				 *can also declare _attribute_((unused)) to argc
+				 * instead of calling (void) to
+				 */
+
 {
 	(void) argv;
 	printf("%d\n", argc - 1);
