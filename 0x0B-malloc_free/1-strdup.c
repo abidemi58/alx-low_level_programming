@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _strdup -  copy of the string given as a parameter.
- * @ str: string to be copied
+ * @str: string to be copied
  * Return: a pointer to the duplicated string, if success
  * returns NULL if insufficient memory was available
  */
