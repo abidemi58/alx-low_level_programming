@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -28,13 +29,13 @@ int is_digit(char *s)
  */
 int _strlen(char *s)
 {
-	int i = 0;
+	int j = 0;
 
-	while (s[i] != '\0')
+	while (s[j] != '\0')
 	{
-		i++;
+		j++;
 	}
-	return (i);
+	return (j);
 }
 
 /**
