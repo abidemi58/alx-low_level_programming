@@ -44,7 +44,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 
-	filler = ptr1;
+	fill = ptr1;
 
 	for (i = 0; i < old_size && i < new_size; i++)
 		fill[i] = *str++;
