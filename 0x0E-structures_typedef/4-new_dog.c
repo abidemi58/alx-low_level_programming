@@ -7,16 +7,15 @@
  */
 int _strlen(char *s)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
 
-	while (s[i] != '\0')
+	while (s[len] != '\0')
 	{
-		i++;
+		len++;
 	}
 
-	return (i);
+	return (len);
 }
 /**
  * _strcopy - Copies a string pointed to by src, including the
