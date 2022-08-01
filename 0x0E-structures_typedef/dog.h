@@ -14,7 +14,7 @@ struct dog
 	char *owner;
 };
 /**
- * struct dog - a data type with tag dog 
+ * struct dog - a data type with tag dog
  * dog_t - the structure variable
  */
 typedef struct dog dog_t;
