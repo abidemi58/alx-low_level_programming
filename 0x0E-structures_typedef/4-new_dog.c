@@ -7,15 +7,14 @@
  */
 int _strlen(char *s)
 {
-	int len = 0;
+	int i = 0;
 
-
-	while (s[len] != '\0')
+	while (s[i] != '\0')
 	{
-		len++;
+		i++;
 	}
 
-	return (len);
+	return (i);
 }
 /**
  * _strcopy - Copies a string pointed to by src, including the
@@ -26,11 +25,16 @@ int _strlen(char *s)
  */
 char *_strcopy(char *dest, char *src)
 {
-	int i;
+	int i, len;
 
-	for (i = 0; src[i]; i++)
+	while (src[len] != '\0')
+	{
+		len++;
+	}
+	for (i = 0; i < len; i++)
+	{
 		dest[i] = src[i];
-
+	}
 	dest[i] = '\0';
 
 	return (dest);
@@ -69,9 +73,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	dog->name = _strcopy(dog->name, name);
+	dog->name = _strcpy(dog->name, name);
 	dog->age = age;
-	dog->owner = _strcopy(dog->owner, owner);
+	dog->owner = _strcpy(dog->owner, owner);
 
 	return (dog);
 }
