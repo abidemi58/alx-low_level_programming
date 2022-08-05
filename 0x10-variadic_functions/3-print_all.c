@@ -74,7 +74,7 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", separator);
 				p[j].f(type);
-				separator = ",";
+				separator = ", ";
 				break;
 			}
 			j++;
