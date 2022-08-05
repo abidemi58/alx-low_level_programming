@@ -3,37 +3,37 @@
 #include <stdarg.h>
 /**
  * print_char - prints an char
- * @c: list argument to be printed
+ * @args: list argument to be printed
  */
-void print_char(va_list c)
+void print_char(va_list args)
 {
-	printf("%c", va_arg(c, int));
+	printf("%c", va_arg(args, int));
 }
 
 /**
  * print_integer - prints an integer
- * @i: list argument to be printed
+ * @args: list argument to be printed
  */
 
-void print_integer(va_list i)
+void print_integer(va_list args)
 {
-	printf("%d", va_arg(i, int));
+	printf("%d", va_arg(args, int));
 }
 
 /**
  * print_float - prints a float
- * @f: list argument to be printed
+ * @args: list argument to be printed
  */
-void print_float(va_list f)
+void print_float(va_list args)
 {
-	printf("%f", va_arg(f, double));
+	printf("%f", va_arg(args, double));
 }
 
 /**
  * print_s - prints a string
- * @s: list argument to be printed
+ * @args: list argument to be printed
  */
-void print_s(va_list s)
+void print_s(va_list args)
 {
 	char *str;
 
