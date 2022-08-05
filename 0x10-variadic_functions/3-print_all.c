@@ -35,9 +35,7 @@ void print_float(va_list args)
  */
 void print_s(va_list args)
 {
-	char *str;
-
-	str = va_arg(args, char *);
+	char *str = va_arg(args, char *);
 	if (str == NULL)
 		printf("(nil)");
 	else
