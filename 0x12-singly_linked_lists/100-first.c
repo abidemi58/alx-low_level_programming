@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void hare(void) __attribute__ ((story));
+void __attribute__ ((constructor)) hare(void);
 /**
  * hare - prints a string before the main function is executed
  */
