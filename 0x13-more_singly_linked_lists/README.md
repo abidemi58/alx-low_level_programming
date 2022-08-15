@@ -1,4 +1,4 @@
-## Write a function that prints all the elements of a listint_t list.
+## Write a function that prints all the elements of a ```listint_t``` list.
 
 * Prototype: ```size_t print_listint(const listint_t *h);```
 * Return: the number of nodes
@@ -52,7 +52,7 @@
 * if the node does not exist, return NULL
 
 ---
-## Write a function that returns the sum of all the data (n) of a ````listint_t``` linked list.
+## Write a function that returns the sum of all the data (n) of a ```listint_t``` linked list.
 
 * Prototype: ```int sum_listint(listint_t *head);```
 * if the list is empty, return 0
