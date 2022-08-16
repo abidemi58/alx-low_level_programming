@@ -1,4 +1,3 @@
-=======
 # alx-low_level_programming
 This is a new repository containing a directory and files about new ALX project C
 ## C PROJECTS
