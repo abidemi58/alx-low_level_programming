@@ -7,7 +7,7 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t node = 0;
-	long int list;
+	int list;
 
 	while (head)
 	{
