@@ -20,4 +20,3 @@ This is a new repository containing a directory and files about new ALX project 
 * 0x10-variadic_functions
 * 0x12-singly_linked_lists
 * 0x13-more_singly_linked_listsC PROJECTS
->>>>>>> fe9342c99daea8ff42b6dec08fe854bbfab5b5a9
