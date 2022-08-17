@@ -20,10 +20,9 @@ size_t free_listint_safe(listint_t **h)
 		node = node->next;
 		free(node);
 
-		if (node < tmp)
+		if (tmp < node)
 			break;
 	}
-
 	*h = NULL;
 
 	return (len);
