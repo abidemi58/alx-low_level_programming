@@ -8,8 +8,10 @@ size_t print_listint_safe(const listint_t *head)
 {
 	size_t node = 0;
 	size_t new;
+	const listint_t *tmp = NULL;
 	const listint_t *list = NULL;
 
+	tmp = head;
 	while (head)
 	{
 		printf("[%p] %d\n", (void *)head, head->n);
