@@ -19,4 +19,5 @@ This is a new repository containing a directory and files about new ALX project 
 * 0x0F-function_pointers
 * 0x10-variadic_functions
 * 0x12-singly_linked_lists
-* 0x13-more_singly_linked_listsC PROJECTS
+* 0x13-more_singly_linked_lists
+* 0x14. C - Bit manipulation
