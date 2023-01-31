@@ -26,4 +26,4 @@ This is a new repository containing a directory and files about new ALX project 
 * 0x18. C - Dynamic libraries
 * 0x1A. C - Hash tables
 * 0x1C. C - Makefiles
-
+* 0x1E. C - Search Algorithms
